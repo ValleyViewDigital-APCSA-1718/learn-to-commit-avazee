@@ -1,0 +1,24 @@
+//------------
+// Ava Zorn
+// 9/7/17
+// 2.7 Miles to Kilometers
+
+import java.util.*; // Allows use of Scanner
+
+public class MilestoKiloms
+{
+    public static void main(String[] args) 
+    {
+        double a, b;
+        double root1;
+        Scanner keyboard = new Scanner(System.in); 
+        
+        System.out.print ("Enter the amount of miles: ");
+        a = keyboard.nextDouble();
+    
+        root1 = (a * 1.60935);
+    
+        System.out.println ("Amount of kilometers in " + a + " miles: " + root1);
+        
+    } // end method main
+} // end class  MilestoKiloms
