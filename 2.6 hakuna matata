@@ -1,0 +1,21 @@
+//*************
+// Ava Zorn
+// 9/6/17
+// 2.7 Hakuna Matata
+//*************
+
+public class HakunaMatata
+{
+    public static void main (String[] args)
+    {
+        String phrase1 = new String ("Hakuna Matata: It means no worries for the rest of your days.");
+        String mutation1, mutation2;
+        
+        mutation1 = phrase1.substring (24,34);
+        mutation2 = phrase1.replace('a','4');
+        
+        System.out.println ("Original: " + phrase1);
+        System.out.println ("Mutation 1: " + mutation1);
+        System.out.println ("Mutation 2: " + mutation2);
+    } // End method main
+} //End class HakunaMatata
