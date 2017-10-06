@@ -1,0 +1,39 @@
+//--------
+// Ava Zorn
+// 2.10 Heron's Triangle
+// 9/22/17
+//--------
+
+import java.util.*;
+import java.text.DecimalFormat;
+
+public class HTriangle
+{
+    public static void main(String[] args)
+    {
+        System.out.println("a+b>c, a+c>b b+c>a");
+        
+        double perimeter, s, area, side1, side2, side3;
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.print ("Enter side one: ");
+        side1 = scan.nextInt();
+        
+        System.out.print ("Enter side two: ");
+        side2 = scan.nextInt();
+        
+        System.out.print ("Enter side three: ");
+        side3 = scan.nextInt();
+        
+        perimeter = side1 + side2 + side3;
+        s = .5 * perimeter;
+        
+        area = Math.sqrt(s * (s - side1) * (s - side2)* (s - side3));
+        
+        DecimalFormat fmt = new DecimalFormat ("0.###");
+    
+        System.out.println ("The area of the triangle: " + area);
+
+    } // End method main
+} // End class HTriangle
+
