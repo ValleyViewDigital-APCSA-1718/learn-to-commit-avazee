@@ -1,0 +1,24 @@
+//------------
+// Ava Zorn
+// 8/25/17
+// Time Conversion
+//------------
+
+public class TimeConverter
+{
+    //---------------
+    // 
+    public static void main (String[] args)
+    {
+        int hours = 3;
+        int min = 43;
+        int sec = 17;
+        int time;
+        int sixty = 60;
+        
+        time = ((hours * sixty) * sixty) + (min * sixty) + sec;
+        
+        System.out.println ("In seconds, 3 hours, 43 minutes, and 17 seconds");
+        System.out.println (" is " + time);
+    } // End method main
+} // End class TimeConverter
