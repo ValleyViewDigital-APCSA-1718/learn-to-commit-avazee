@@ -1,0 +1,31 @@
+// --------------------
+// Ava Zorn
+// 8/25/17
+// Double Calculator
+//---------------------
+
+public class DoubleCalculator
+{
+    public static void main (String[] args)
+    {
+    
+        double five = 5.6;
+        double eight = 8.2;
+        double sum;
+        double difference;
+        double product;
+    
+        sum = (five + eight);
+        difference = (eight - five);
+        product = (five * eight);
+    
+        System.out.println ("What is the sum of 5.6 and 8.2?");
+        System.out.println (sum);
+    
+        System.out.println ("What is the difference of those numbers?");
+        System.out.println (difference);
+    
+        System.out.println ("What is the product?");
+        System.out.println (product);
+    } // End method main
+} // End class DoubleCalculator
