@@ -1,0 +1,36 @@
+//------------
+// Ava Zorn
+// 9/15/17
+// 2.8 Distance
+
+import java.util.*; 
+
+public class SolveDistance
+{
+    public static void main(String[] args) 
+    {
+        int x1;
+        int y1;
+        int x2;
+        int y2;
+        double distance; 
+        Scanner keyboard = new Scanner(System.in); 
+    
+        System.out.print ("Enter the first x: ");
+        x1 = keyboard.nextInt();
+        
+        System.out.print ("Enter the second x: ");
+        x2 = keyboard.nextInt();
+        
+        System.out.print ("Enter the first y: ");
+        y1 = keyboard.nextInt();
+    
+        System.out.print ("Enter the second y: ");
+        y2 = keyboard.nextInt();
+    
+        distance = Math.sqrt(Math.pow((x2 - x1),2) + (Math.pow((y2 - y1),2)));
+    
+        System.out.println ("The distance is " + distance);
+        
+    } // end method main
+} // end class solvedistance
