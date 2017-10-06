@@ -1,0 +1,31 @@
+//*************
+// Ava Zorn
+// 9/6/17
+// 2.6 NameMutation
+//*************
+
+public class NameMutation
+{
+    public static void main (String[] args)
+    {
+        String phrase1 = new String ("Ava");
+        String phrase2 = new String ("Zorn");
+        String mutation1, mutation2;
+        
+        int string1 = phrase1.length();
+        int string2 = phrase2.length();
+        int both = string1 + string2;
+        
+        System.out.println ("Original string: \"" + phrase1 + phrase2 + "\"");
+        System.out.println ("Length of string one: " + phrase1.length());
+        System.out.println ("Length of string two: " + phrase2.length());
+        System.out.println ("Length of both: " + both);
+        
+        mutation1 = phrase1 + phrase2.concat (".");
+        mutation2 = mutation1.toUpperCase();
+        
+            System.out.println ("MUtation #1: " + mutation1);
+            System.out.println ("Mutation #2: " + mutation2);
+        
+    } // End method main
+} //End class NameMutation
