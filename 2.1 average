@@ -1,0 +1,23 @@
+// --------------------
+// Ava Zorn
+// 8/24/17
+// Average Converter
+//---------------------
+
+public class Average
+{
+    public static void main (String[] args)
+    {
+    
+    int ten = 10;
+    int two = 2;
+    int four = 4;
+    int three = 3;
+    double average;
+    
+    average = (ten + two + four) / three;
+    
+    System.out.println ("What is the average of ten, four, and two?");
+    System.out.println (average);
+    } // End void
+} // End class Average
